@@ -1,0 +1,529 @@
+@import url(https://fonts.googleapis.com/css?family=Maven+Pro);
+@import url(https://fonts.googleapis.com/css?family=Merienda);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+
+
+/* top menu css start */
+
+#top-header{
+	/*background: #1d4370;*/
+	background: -moz-linear-gradient(left, #fff, #1d4370);
+	background: -webkit-linear-gradient(left, #fff, #1d4370);
+	background: -o-linear-gradient(left, #fff, #1d4370);
+	background: -ms-linear-gradient(left, #fff, #1d4370);
+	padding: 20px 0px;
+}
+#top-header-menu{
+	position: relative;
+	display: block;
+}
+#top-header-menu ul{
+	list-style: none;
+	margin:0px;
+	padding: 0px;
+	position: relative;
+}
+#top-header-menu ul li{
+	display: inline-block;
+	text-align: center;
+	color: #efefef;
+	position: relative;
+}
+#top-header-menu ul li a{
+	position: relative;
+	color: #efefef;
+	font-family: 'Maven Pro', sans-serif;
+	font-size:13px;
+	font-weight: 400;
+	display: block;
+	padding: 10px;
+	border-right: 1px dotted #456275;
+	text-transform: uppercase;
+	text-rendering: auto;
+	text-rendering: optimizeSpeed;
+	text-rendering: optimizeLegibility;
+	text-rendering: geometricPrecision;
+}
+
+#top-header-menu ul li a:hover, #top-header-menu > ul > li:hover > a{text-decoration: none;background: #252525;}
+
+#top-header-menu ul li:nth-child(7) a{
+	border-right: none;
+}
+#top-header-menu ul li a:hover{
+	color: #efefef;
+	background: #252525;
+	text-decoration: none;
+	display: block;
+}
+
+#top-header-menu ul li .top-header-menu-dropdown{
+	position: absolute;
+	display: none;
+	background: #252525;
+	z-index: 1000
+}
+#top-header-menu ul li:hover > .top-header-menu-dropdown{
+	display: block;
+	left: 0px;
+}
+
+#top-header-menu ul li .top-header-menu-dropdown li{
+	width: 250px;
+	text-align: left;
+}
+#top-header-menu ul li .top-header-menu-dropdown li a{
+  -o-transition:color .1s ease-out, background .3s ease-in;
+  -ms-transition:color .1s ease-out, background .3s ease-in;
+  -moz-transition:color .1s ease-out, background .3s ease-in;
+  -webkit-transition:color .1s ease-out, background .3s ease-in;
+  transition:color .1s ease-out, background .3s ease-in;
+}
+#top-header-menu ul li .top-header-menu-dropdown li a:hover{
+	background: #584ee4;
+	color: #efefef;
+	display: block;
+	border-right: none;
+}
+
+
+#top-header-menu ul li .top-header-menu-right-dropdown{
+	position: absolute;
+	display: none;
+	z-index: 1000;
+	background: #252525;
+}
+#top-header-menu ul li:hover > .top-header-menu-right-dropdown{
+	display: block;
+	right: 0px;
+}
+#top-header-menu ul li .top-header-menu-right-dropdown li{
+	width: 250px;
+	text-align: left;
+}
+#top-header-menu ul li .top-header-menu-right-dropdown li a{
+  -o-transition:color .1s ease-out, background .3s ease-in;
+  -ms-transition:color .1s ease-out, background .3s ease-in;
+  -moz-transition:color .1s ease-out, background .3s ease-in;
+  -webkit-transition:color .1s ease-out, background .3s ease-in;
+  transition:color .1s ease-out, background .3s ease-in;
+}
+#top-header-menu ul li .top-header-menu-right-dropdown li a:hover{
+	background: #584ee4;
+	color: #efefef;
+	display: block;
+	border-right: none;
+}
+
+#search-div{
+	margin: 10px;
+}
+#search{
+	width:100%;
+	padding: 5px 10px;
+	color:#3d3d3d;
+}
+
+/* top menu css end */
+
+
+/* top mega menu css start */
+#top-menu{
+	display: block;
+	background:#fff;
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(222,222,222,1);
+	-moz-box-shadow: 0px 3px 5px 0px rgba(222,222,222,1);
+	box-shadow: 0px 3px 5px 0px rgba(222,222,222,1);
+	
+}
+.navMenu{
+	display: block;
+	width: 100%;
+	background: #fff;
+}
+.navMenu ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+}
+.navMenu ul li{
+	float: left;
+	display: inline-block;
+}
+.navMenu ul li a{
+	display: block;
+	color:#2f2f2e;
+	padding: 10px 20px;
+	font-family: 'Merienda', cursive;
+	font-size:14px;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+.navMenu ul li a:hover, .navMenu > ul > li:hover > a{
+	text-decoration: none;
+	background: #252525;
+	color: #fff
+}
+
+.navMenu ul li ul.megaMenu{
+	width: 100%;
+	padding: 15px 15px 25px 15px;
+	background: #252525; 
+	position: absolute;
+	z-index: 1000;
+	display:none;
+	left:0;
+}
+.navMenu ul li:hover ul.megaMenu{
+	display: block;
+}
+.navMenu ul li:hover ul.megaMenu li{
+	
+}
+.navMenu ul li:hover ul.megaMenu li h2{
+	color:#ff9445;
+	font-family: 'Merienda', cursive;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+.navMenu ul li:hover ul.megaMenu li a{
+	padding: 5px;
+	color:#e3fbff;
+	font-family: 'Merienda', cursive;
+	border-bottom: 1px dotted #737373;
+	line-height: 1.9em;
+	font-weight: 400;
+	font-size: 12px;
+}
+.navMenu ul li:hover ul.megaMenu li a:hover{
+	color:#be57f9;
+	border-bottom: 1px dotted #be57f9;
+}
+.megaMenu{
+	font-family: 'Merienda', cursive;
+	line-height: 1.9em;
+	font-weight: 400;
+	font-size: 12px;
+	color: #fff;
+}
+/* top mega menu css end */
+
+
+/* caption css start */
+.carousel-caption{
+	background: rgba(000,000,000,0.4);
+}
+.carousel-caption h3{
+	font-family: 'Merienda', cursive;
+}
+.carousel-caption p{
+	font-family: 'Merienda', cursive;
+}
+
+#owl-slider{
+	position: relative;
+}
+#owl-slider .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.slider-content{
+	position: relative;
+}
+.slider-data{
+	position: absolute;
+	background: rgba(0,0,0,0.7);
+	color:#fff;
+	bottom:0px;
+	left:20%;
+	right: 20%;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+.slider-data h2{
+	font-family: 'Raleway', sans-serif;
+}
+.slider-data p{
+	font-family: 'Raleway', sans-serif;
+}
+
+#owl-slider span{
+	margin-top: -80px;
+	width: 15px;
+	height:15px;
+	background: red;
+	display: none;
+}
+/* caption css end */
+
+
+/* latest-news css start */
+#latest-news{
+	background: -moz-linear-gradient(top ,#F0F0F0,#FFF);
+	background: -webkit-linear-gradient(top ,#F0F0F0,#FFF);
+	background: -o-linear-gradient(top ,#F0F0F0,#FFF);
+	background: -ms-linear-gradient(top ,#F0F0F0,#FFF);
+	background: linear-gradient(top ,#F0F0F0,#FFF);
+	-webkit-box-shadow: 0px 2px 2px 0px rgba(168,168,168,1);
+	-moz-box-shadow: 0px 2px 2px 0px rgba(168,168,168,1);
+	box-shadow: 0px 2px 2px 0px rgba(168,168,168,1);
+	margin-top: -30px;
+	padding: 15px 5px 30px 5px;
+}
+#latest-news h2{
+	color: #565555;
+	font-family: 'Maven Pro', sans-serif;
+	font-size:35px;
+	font-weight: 400;
+	text-align: center;
+	padding: 10px 0px;
+}
+#latest-news .item{ 
+	margin: 5px;
+	background: #fff;
+	padding: 10px;
+	-webkit-box-shadow: 0px 2px 2px -1px rgba(168,168,168,1);
+	-moz-box-shadow: 0px 2px 2px -1px rgba(168,168,168,1);
+	box-shadow: 0px 2px 2px -1px rgba(168,168,168,1);
+	text-align: center;
+	overflow: hidden;
+}
+#latest-news .item img{
+	display: block;
+	width: 100%;
+	height: auto;
+	cursor: pointer;
+	-webkit-box-shadow: 0px 1px 2px -1px rgba(168,168,168,1);
+	-moz-box-shadow: 0px 1px 2px -1px rgba(168,168,168,1);
+	box-shadow: 0px 1px 2px -1px rgba(168,168,168,1);
+}
+#latest-news h3{
+	font-family: 'Maven Pro', sans-serif;
+	text-rendering: auto;
+	text-rendering: optimizeSpeed;
+	text-rendering: optimizeLegibility;
+	text-rendering: geometricPrecision;
+}
+#latest-news p{
+	font-family: 'Maven Pro', sans-serif;
+	text-rendering: auto;
+	text-rendering: optimizeSpeed;
+	text-rendering: optimizeLegibility;
+	text-rendering: geometricPrecision;
+	color: #656464;
+}
+#latest-news a{
+	font-family: 'Maven Pro', sans-serif;
+	text-rendering: auto;
+	text-rendering: optimizeSpeed;
+	text-rendering: optimizeLegibility;
+	text-rendering: geometricPrecision;
+	font-size: 12px;
+	text-transform: uppercase;
+	color:#737373;
+}
+/* latest-news css end */
+
+
+/* upcomming-event css start */
+#upcomming-event{
+	background: -moz-linear-gradient(top , #F0F0F0, #FFF);
+	background: -webkit-linear-gradient(top, #F0F0F0, #FFF);
+	background: -o-linear-gradient(top , #F0F0F0, #FFF);
+	background: -ms-linear-gradient(top , #F0F0F0, #FFF);
+	margin-top: -20px;
+	padding: 15px 5px 30px 5px;
+}
+#upcomming-event h2{
+	font-family: 'Maven Pro', sans-serif;
+	font-size:35px;
+	font-weight: 400;
+	text-align: center;
+	padding: 10px 0px;
+}
+#upcomming-event .item{ margin: 3px;padding: 5px;}
+#upcomming-event .item img{
+	display: block;
+	width: 100%;
+	height: auto;
+	cursor: pointer;
+	-webkit-box-shadow: 0px 1px 2px -1px rgba(168,168,168,1);
+	-moz-box-shadow: 0px 1px 2px -1px rgba(168,168,168,1);
+	box-shadow: 0px 1px 2px -1px rgba(168,168,168,1);
+}
+.upcomming-event-news{
+	position: relative;
+	-webkit-box-shadow: 0px 2px 2px -1px rgba(168,168,168,1);
+	-moz-box-shadow: 0px 2px 2px -1px rgba(168,168,168,1);
+	box-shadow: 0px 2px 2px -1px rgba(168,168,168,1);
+	padding: 10px;
+	overflow: hidden;
+}
+.upcomming-date{
+	position: absolute;
+	background:rgba(0,0,0,0.8);
+	padding: 5px 10px;
+	color:#fff;
+	font-family: 'Maven Pro', sans-serif;
+	font-size:14px;
+	top:20px;
+	text-align: center;
+}
+#upcomming-event h3{
+	font-family: 'Maven Pro', sans-serif;
+	text-rendering: auto;
+	text-rendering: optimizeSpeed;
+	text-rendering: optimizeLegibility;
+	text-rendering: geometricPrecision;
+	color: #565555;
+}
+#upcomming-event p{
+	font-family: 'Maven Pro', sans-serif;
+	text-rendering: auto;
+	text-rendering: optimizeSpeed;
+	text-rendering: optimizeLegibility;
+	text-rendering: geometricPrecision;
+	color: #656464;
+}
+#upcomming-event a{
+	font-family: 'Maven Pro', sans-serif;
+	text-rendering: auto;
+	text-rendering: optimizeSpeed;
+	text-rendering: optimizeLegibility;
+	text-rendering: geometricPrecision;
+	font-size: 12px;
+	text-transform: uppercase;
+	color:#737373;
+}
+/* upcomming-event css end */
+
+
+/* campus-life css start */
+#campus-life{
+	background-color: #F8F2E3;
+	background-position: center top;
+	background-image: -moz-linear-gradient(center top , #F8F2E3 0px, #fcf7eb 150px);
+	background-image: -webkit-linear-gradient(center top , #F8F2E3 0px, #fcf7eb 150px);
+	background-image: -o-linear-gradient(center top , #F8F2E3 0px, #fcf7eb 150px);
+	background-image: -ms-linear-gradient(center top , #F8F2E3 0px, #fcf7eb 150px);
+	-webkit-box-shadow: 0px 2px 2px 0px rgba(168,168,168,1);
+	-moz-box-shadow: 0px 2px 2px 0px rgba(168,168,168,1);
+	box-shadow: 0px 2px 2px 0px rgba(168,168,168,1);
+	margin-top: -20px;
+	padding: 15px 5px 30px 5px;
+}
+#campus-life h2{
+	color: #565555;
+	font-family: 'Maven Pro', sans-serif;
+	font-size:35px;
+	font-weight: 400;
+	text-align: center;
+	padding: 10px 0px;
+}
+#campus-life .item{ 
+	margin: 5px;
+	background: #fff;
+	padding: 10px;
+	-webkit-box-shadow: 0px 2px 2px -1px rgba(168,168,168,1);
+	-moz-box-shadow: 0px 2px 2px -1px rgba(168,168,168,1);
+	box-shadow: 0px 2px 2px -1px rgba(168,168,168,1);
+	text-align: center;
+	overflow: hidden;
+}
+#campus-life .item img{
+	display: block;
+	width: 100%;
+	height: auto;
+	cursor: pointer;
+	-webkit-box-shadow: 0px 1px 2px -1px rgba(168,168,168,1);
+	-moz-box-shadow: 0px 1px 2px -1px rgba(168,168,168,1);
+	box-shadow: 0px 1px 2px -1px rgba(168,168,168,1);
+}
+.campus-life-club{
+	position: relative;
+	overflow: hidden;
+}
+.club-title{
+	position: absolute;
+	bottom: 0px;
+	padding: 7px;
+	background: rgba(0,0,0,0.7);
+	color: #fff;
+	width: 100%;
+	left: 0px;
+	font-family: 'Maven Pro', sans-serif;
+	text-rendering: auto;
+	text-rendering: optimizeSpeed;
+	text-rendering: optimizeLegibility;
+	text-rendering: geometricPrecision;
+}
+
+/* campus-life css end */
+
+
+#our-location{
+	
+	margin-top: -20px;
+	padding: 15px 5px 0px 5px;
+}
+#our-location h2{
+	color: #565555;
+	font-family: 'Maven Pro', sans-serif;
+	font-size:35px;
+	font-weight: 400;
+	text-align: center;
+	padding: 10px 0px;
+}
+
+
+
+#footer{
+	background: #000;
+	padding: 60px 0px;
+}
+
+.footer-widget ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.footer-widget ul li{
+	line-height: 2.9em;
+}
+.footer-widget ul li a{
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	color: #fff;
+	display: block;
+	border-bottom: 1px dotted #919191;
+}
+.footer-widget ul li a:hover{
+	text-decoration: none;
+	color:#1283be;
+}
+.footer-widget address{
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
+	color: #fff;
+	line-height: 2.0em;
+}
+#copyright{
+	border-top: 1px dotted #919191;
+	padding: 30px 0px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+	margin-top: 70px;
+}
+
+
+
+
+
+
+
